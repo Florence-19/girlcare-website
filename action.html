@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <html lang="en-us">
+    <head>
+    <meta charset="UTF-8">
+<meta  name="viewpoint" content="width=device-width, initial-scale=1.0"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<title>girlcare</title>
+<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+    
+        <title>Sign Up Form</title>
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+    
+            body {
+              font-family: Arial, sans-serif;
+              background-color: #f2f2f2;
+              margin: 0;
+            }
+    
+            .container {
+              max-width: 400px;
+              margin: 20px auto;
+              padding: 20px;
+              background-color: plum;
+              box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            }
+    
+            .container h2 {
+              text-align: center;
+              margin-bottom: 20px;
+            }
+    
+            .container label {
+              font-weight: bold;
+            }
+            
+            .container input[type="text"],
+            .container input[type="email"],
+            .container input[type="password"],
+            .container select {
+              width: 100%;
+              padding: 10px;
+              margin-bottom: 20px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+            }
+    
+            .container input[type="submit"] {
+              background-color: #4CAF50;
+              color: white;
+              padding: 10px 20px;
+              border: none;
+              cursor: pointer;
+            }
+
+            button{
+              background-color: #4CAF50;
+              color: white;
+              padding: 10px 20px;
+              border: none;
+              cursor: pointer;
+            }
+    
+            .container input[type="submit"]:hover {
+              background-color: #45a049;
+            }
+    
+            .container .consent {
+              margin-top: 10px;
+            }
+    
+            .container p {
+              margin-top: 30px;
+            }
+
+            button a{
+              text-decoration: none;
+              color: #f2f2f2;
+              font-weight: 900;
+            }
+           
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        
+            <h2>Ambassador Sign Up Form</h2>
+            <form action="mailto:adejumoflorenceb@gmail.com" method="POST" enctype="multipart/form-data">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="write name in full" name="name" required>
+    
+                <label for="age">Age</label>
+                <input type="text" id="age" name="age" required>
+    
+                <label for="phone">Phone Number (Nigeria)</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{11}" placeholder="e.g. 08123456789" required>
+    <br>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+    
+                <label for="ambassador">Why do you want to be an ambassador?</label>
+                <textarea id="ambassador" name="ambassador" rows="8" cols="30" required></textarea>
+    
+                <div class="consent">
+                    <input type="checkbox" id="consent" name="consent" required>
+                    <label for="consent">I consent to the data provided being stored and used for GirlCare purposes.</label>
+                </div>
+    
+                <input type="submit" value="Sign Up">
+            </form>
+            <p>Note: All fields are required.</p>
+            
+            <p>Or </p>
+            <form>
+              <button  type="submit"><a href="ambsador.html">Log In</a></button>
+            </form>
+        </div>
+    </body>
+    </html>
+</body>
+</html>
